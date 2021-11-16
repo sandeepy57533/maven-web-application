@@ -12,11 +12,11 @@ node{
         sh "${mavenHome}/bin/mvn sonar:sonar"
     }
     
-    /*
+    
     stage('uploadartifactsintonexusrepo'){
         sh "${mavenHome}/bin/mvn deploy"
     }
-    */
+    /*
     stage('deployappintoTomcatserver'){
         sshagent(['b0a02886-cb88-46b2-ab65-a7215a3f2a18']) {
          sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.235.73.50:/opt/apache-tomcat-9.0.54/webapps/"
@@ -32,4 +32,6 @@ mithun,
 9087678766
 ''', cc: 'sandeepy57533@gmail.com', from: '', replyTo: '', subject: '', to: 'sandeepy57533@gmail.com'
     }
+    */
 }
+
