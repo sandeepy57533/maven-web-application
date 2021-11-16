@@ -2,7 +2,7 @@ node{
 
 //echo "GitHub BranchName ${env.BRANCH_NAME}"
 //echo "jenkins job number ${env.BUILD_NUMBER}"
-echo "jenkins Node Name ${env.NODE_NAME}"
+//echo "jenkins Node Name ${env.NODE_NAME}"
 
 echo "jenkins Home ${env.JENKINS_HOME}"
 echo "jenkins Url ${env.JENKINS_URL}"
